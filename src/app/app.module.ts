@@ -44,6 +44,19 @@ import { SeoComponent } from './content/services/digital-marketing/seo/seo.compo
 import { SemPpcComponent } from './content/services/digital-marketing/sem-ppc/sem-ppc.component';
 import { SmmComponent } from './content/services/digital-marketing/smm/smm.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { PortfolioComponent } from './content/work/portfolio/portfolio.component';
+import { TestimonialsComponent } from './content/work/testimonials/testimonials.component';
+import { GlobalContactComponent } from './layouts/global-contact/global-contact.component';
+import { HeadBotComponent } from './layouts/head-bot/head-bot.component';
+import { HeadTopComponent } from './layouts/head-top/head-top.component';
+import { HireFormComponent } from './layouts/hire-form/hire-form.component';
+import { LetsTalkComponent } from './layouts/lets-talk/lets-talk.component';
+import { OurClientsSayComponent } from './layouts/our-clients-say/our-clients-say.component';
+import { OurHiringProcessComponent } from './layouts/our-hiring-process/our-hiring-process.component';
+import { PortfolioPopComponent } from './layouts/portfolio-pop/portfolio-pop.component';
+import { WhyHireFromUsComponent } from './layouts/why-hire-from-us/why-hire-from-us.component';
+import { WhyChooseComponent } from './layouts/why-choose/why-choose.component';
+import { ExpBarComponent } from './layouts/exp-bar/exp-bar.component';
 
 @NgModule({
   declarations: [
@@ -88,11 +101,39 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     SeoComponent,
     SemPpcComponent,
     SmmComponent,
+    PortfolioComponent,
+    TestimonialsComponent,
+    GlobalContactComponent,
+    HeadBotComponent,
+    HeadTopComponent,
+    HireFormComponent,
+    LetsTalkComponent,
+    OurClientsSayComponent,
+    OurHiringProcessComponent,
+    PortfolioPopComponent,
+    WhyHireFromUsComponent,
+    WhyChooseComponent,
+    ExpBarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
+  ],
+  exports: [
+    GlobalContactComponent,
+    HeadBotComponent,
+    HeadTopComponent,
+    HireFormComponent,
+    LetsTalkComponent,
+    OurClientsSayComponent,
+    OurHiringProcessComponent,
+    PortfolioPopComponent,
+    WhyHireFromUsComponent,
+    WhyChooseComponent,
+    ExpBarComponent,
+    OurTopServiceComponent,
+    ProcessWeFollowComponent
   ],
   providers: [Title],
   bootstrap: [AppComponent]
