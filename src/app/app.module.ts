@@ -57,6 +57,12 @@ import { PortfolioPopComponent } from './layouts/portfolio-pop/portfolio-pop.com
 import { WhyHireFromUsComponent } from './layouts/why-hire-from-us/why-hire-from-us.component';
 import { WhyChooseComponent } from './layouts/why-choose/why-choose.component';
 import { ExpBarComponent } from './layouts/exp-bar/exp-bar.component';
+import { WebDevelopmentComponent } from './content/services/web-development/web-development.component';
+import { UiUxDesignComponent } from './content/services/ui-ux-design/ui-ux-design.component';
+import { SalesFunnelComponent } from './content/services/sales-funnel/sales-funnel.component';
+import { MobileDevelopmentComponent } from './content/services/mobile-development/mobile-development.component';
+import { GraphicDesignComponent } from './content/services/graphic-design/graphic-design.component';
+import { DigitalMarketingComponent } from './content/services/digital-marketing/digital-marketing.component';
 
 @NgModule({
   declarations: [
@@ -114,6 +120,12 @@ import { ExpBarComponent } from './layouts/exp-bar/exp-bar.component';
     WhyHireFromUsComponent,
     WhyChooseComponent,
     ExpBarComponent,
+    WebDevelopmentComponent,
+    UiUxDesignComponent,
+    SalesFunnelComponent,
+    MobileDevelopmentComponent,
+    GraphicDesignComponent,
+    DigitalMarketingComponent
   ],
   imports: [
     BrowserModule,

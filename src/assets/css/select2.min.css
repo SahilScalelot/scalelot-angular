@@ -312,7 +312,7 @@ select.select2 {
   width: 15px;
   height: 15px;
   right: 6px;
-  background: #fff url('../images/select2.png') no-repeat 92% -27px;
+  background: #fff url('https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.png') no-repeat 92% -27px;
   top: 50%;
   transform: translateY(-50%);
 }
